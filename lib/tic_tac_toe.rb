@@ -81,7 +81,7 @@ class TicTacToe
   def won? 
     won = false
    WIN_COMBINATIONS.each { |item|
-     if item[0] == item[1] && item[1] == item[2] && position_taken(item[0])
+     if item[0] == item[1] && item[1] == item[2] && position_taken(item[1])
        won = true 
      end
    }
