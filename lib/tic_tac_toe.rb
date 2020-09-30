@@ -82,7 +82,7 @@ class TicTacToe
     won = false
    WIN_COMBINATIONS.each { |item|
      if item[0] == item[1] && item[1] == item[2] && position_taken(item[1])
-       won = true 
+       won = [item[0] + item[1] + item[2]]
      end
    }
    won
