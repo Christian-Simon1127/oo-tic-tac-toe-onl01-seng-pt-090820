@@ -88,7 +88,7 @@ class TicTacToe
      end
    }
    if won 
-     retur 
+     win_arr 
    else 
      won 
    end
