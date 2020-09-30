@@ -88,6 +88,7 @@ class TicTacToe
        win_arr = WIN_COMBINATIONS[counter]
      end
    }
+   puts win_arr
    if won 
      win_arr 
    else 
