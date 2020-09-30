@@ -79,9 +79,13 @@ class TicTacToe
   end
   
   def won? 
-   WIN_COMBINATIONS.each { |win_combination|
-     
+    won = false
+   WIN_COMBINATIONS.each { |item|
+     if item[0] == item[1] && item[1] == item[2] && position_taken(item[0])
+       won = true 
+     end
    }
+   won
   end
   
   def full?
