@@ -42,7 +42,7 @@ class TicTacToe
   end
   
   def valid_move?(input)
-    unless position_taken?(input) || input > 0 || input < 8 || input == nil
+    unless position_taken?(input) || input > -1 || input < 9 || input == nil
       true 
     else 
       false 
