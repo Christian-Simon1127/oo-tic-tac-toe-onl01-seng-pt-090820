@@ -37,7 +37,7 @@ class TicTacToe
   
   def move(input, token = "X")
     if valid_move?(input)
-      @board[input-1] = token
+      @board[input] = token
     end
   end
   
