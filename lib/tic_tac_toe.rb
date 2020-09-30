@@ -81,10 +81,11 @@ class TicTacToe
   def won? 
     won = false
     win_arr = []
+    counter = 0
    WIN_COMBINATIONS.each { |item|
      if item[0] == item[1] && item[1] == item[2] && position_taken(item[1])
        won = true
-       win_arr = [item[0] + item[1] + item[2]]
+       win_arr = WIN_COMBINATIONS[counter]
      end
    }
    if won 
