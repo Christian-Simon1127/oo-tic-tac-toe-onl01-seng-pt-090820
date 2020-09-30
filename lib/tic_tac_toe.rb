@@ -51,7 +51,7 @@ class TicTacToe
   
   def turn
     input = input_to_index(gets.chomp)
-    token = current_player
+    token = current_player()
     is_valid_move = valid_move?(input)
     if is_valid_move
       move(input, token)
