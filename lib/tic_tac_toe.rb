@@ -36,9 +36,7 @@ class TicTacToe
   end
   
   def move(input, token = "X")
-    # if valid_move?(input)
-      @board[input] = token
-    # end
+    @board[input] = token
   end
   
   def valid_move?(input)
@@ -88,6 +86,7 @@ class TicTacToe
        won = true
        win_arr = WIN_COMBINATIONS[counter]
      end
+     counter += 1
    }
    if won 
      win_arr 
