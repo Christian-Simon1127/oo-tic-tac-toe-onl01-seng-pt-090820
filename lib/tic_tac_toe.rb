@@ -88,7 +88,7 @@ class TicTacToe
      end
      counter += 1
    }
-   
+   puts win_arr
    if won 
      win_arr 
    else 
