@@ -54,7 +54,7 @@ class TicTacToe
     if is_valid_move
       move(input, token)
     else 
-      input = gets.chomp
+      turn
     end
     display_board
   end
@@ -132,6 +132,26 @@ class TicTacToe
     else 
       nil 
     end
+  end
+  
+  def play 
+    turn 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   end
   
   
