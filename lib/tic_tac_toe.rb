@@ -114,7 +114,7 @@ class TicTacToe
     end
   end
   
-  def over 
+  def over?
     if full? or won?
       true 
     else 
