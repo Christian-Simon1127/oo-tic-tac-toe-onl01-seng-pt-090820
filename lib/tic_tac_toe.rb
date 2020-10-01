@@ -137,8 +137,7 @@ class TicTacToe
   def play 
     while won? && !full? {
       turn
-      won? 
-      full?      
+   
     }
     # if winner == "X"
     #   puts "Congratulations X!"
