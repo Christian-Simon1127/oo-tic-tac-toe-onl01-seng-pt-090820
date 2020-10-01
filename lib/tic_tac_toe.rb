@@ -138,19 +138,15 @@ class TicTacToe
     while won? && !full? {
       turn
       won? 
-      full?
-      
-      
-      
-      
+      full?      
     }
-    if winner == "X"
-      puts "Congratulations X!"
-    elsif winner == "O"
-      puts "Congratulations O!"
-    else 
-      puts "Cat's Game!"
-    end
+    # if winner == "X"
+    #   puts "Congratulations X!"
+    # elsif winner == "O"
+    #   puts "Congratulations O!"
+    # else 
+    #   puts "Cat's Game!"
+    # end
   end
   
   
