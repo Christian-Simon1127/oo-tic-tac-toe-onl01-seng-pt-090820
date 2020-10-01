@@ -125,9 +125,9 @@ class TicTacToe
   def winner 
     if won?
       if turn_count % 2 == 1 
-        "O" 
+        "X" 
       else 
-        "X"
+        "O"
       end
     else 
       nil 
