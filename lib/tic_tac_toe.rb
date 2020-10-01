@@ -135,22 +135,16 @@ class TicTacToe
   end
   
   def play 
-    turn 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    while won? && !full? {
+      turn
+      
+      
+      
+      
+      
+    }
+    if winner == "X"
+      
     
   end
   
