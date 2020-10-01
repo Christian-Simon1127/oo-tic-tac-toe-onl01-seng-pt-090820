@@ -82,7 +82,7 @@ class TicTacToe
     win_arr = []
     counter = 0
    WIN_COMBINATIONS.each { |item|
-     if @board[item[0]] == @board[item[1]] && @board[item[1]] == @board[item[2]] && position_taken?(@board[item[1]])
+     if @board[item[0]] == @board[item[1]] && @board[item[1]] == @board[item[2]] && position_taken(item[1])
        won = true
        win_arr = WIN_COMBINATIONS[counter]
      end
