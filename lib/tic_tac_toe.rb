@@ -122,6 +122,18 @@ class TicTacToe
     end
   end
   
+  def winner 
+    if won 
+      if turn_count % 2 == 1 
+        "O" 
+      else 
+        "X"
+      end
+    else 
+      nil 
+    end
+  end
+  
   
   
   
