@@ -135,7 +135,7 @@ class TicTacToe
   end
   
   def play 
-    while won? && !full? {
+    while !over? {
       turn
    
     }
